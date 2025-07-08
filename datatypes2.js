@@ -38,3 +38,7 @@ console.log(typeof Obj);
 console.log(typeof myFunction);
 console.log(myDate);
 console.log(typeof myBigInt);
+
+
+console.log(typeof Num);
+console.log(typeof Str);    
