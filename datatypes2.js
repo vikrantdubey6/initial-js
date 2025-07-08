@@ -41,4 +41,4 @@ console.log(typeof myBigInt);
 
 
 console.log(typeof Num);
-console.log(typeof Str);    
+console.log(typeof Str);
