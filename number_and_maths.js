@@ -1,5 +1,4 @@
-// File: number_and_maths.js
-// --- maths_and_numbers
+
 const score = 400
 // console.log(score); 
 
