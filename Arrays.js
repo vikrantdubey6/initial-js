@@ -28,8 +28,3 @@ console.log(myArr2)
 
 console.log(myArr2.includes(21));
 console.log(myArr2.indexOf(21));
-// console.log(myArr2.lastIndexOf(21));
-
-console.log(myArr2.reverse());
-
-console.log(myArr2.sort((a, b) => a - b));
