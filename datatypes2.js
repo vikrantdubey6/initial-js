@@ -40,5 +40,4 @@ console.log(myDate);
 console.log(typeof myBigInt);
 
 
-console.log(typeof Num);
-console.log(typeof Str);            
+    
