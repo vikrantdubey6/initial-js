@@ -27,3 +27,4 @@ console.log(myArr2)
 // removes the first element from the array
 
 console.log(myArr2.includes(21));
+console.log(myArr2.indexOf(21));
