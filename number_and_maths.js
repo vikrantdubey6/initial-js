@@ -36,7 +36,15 @@ console.log(Math);
 // console.log(Math.round(8.6));
 
 
-console.log(Math.random()); // generates a random number between 0 and 1
-console.log(Math.random() * 10); // generates a random number between 0 and 10
-console.log((Math.random() * 10 ) + 1); // generates a random number between 1 and 10
+// console.log(Math.random()); // generates a random number between 0 and 1
+// console.log(Math.random() * 10); // generates a random number between 0 and 10
+// console.log((Math.random() * 10 ) + 1); // generates a random number between 1 and 10
 
+const min = 10;
+const max = 20;
+
+
+
+console.log(Math.random() * (max - min + 1) + min); 
+console.log(Math.floor(Math.random() * max - min + 1) + min); 
+// generates a random number between min and max (inclusive)
