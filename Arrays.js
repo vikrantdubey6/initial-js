@@ -4,7 +4,7 @@ const MyArr = [30, 22, 53, 40, 15]
 
 // console.log(MyArr[0]); 
 
-const Heroes = ['Ironmna', 'Hulk', 'Thor', 'Captain America', 'Black Widow']
+const Heroes = ['Ironman', 'Hulk', 'Thor', 'Captain America', 'Black Widow']
 
 const myArr2 = new Array(53, 45,21,65) 
 
