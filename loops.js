@@ -50,7 +50,67 @@ let cars = ["volvo", "swift", "mercedes", "supra", "mustang"]
 
 let c = 1
 while (c <= cars.length) {
-    console.log(`car number ${c} car is ${cars[c]}`);
-    c++
+    // console.log(`car number ${c} car is ${cars[c]}`);
+    c++ 
+}
+
+// +++++++ do-while +++++++++++
+let score = 1
+do {
+    // console.log(`score is ${score}`);
+    score++
+
+} while (score <= 10);
+
+// ++++++++++ for of +++++++++++++++++
+
+const arr = [1, 2, 3, 4, 5, 6]
+for (const num of arr) {
+    // console.log(num);
+}
+
+// +++++++++++ Map +++++++++++++
+
+const map = new Map()   //store key-value pair with unique value it is not iterable 
+
+map.set('IN', "India")
+map.set('USA', "United State of America")
+map.set('Fr',"France")
+map.set('NL', "Netherland")
+
+// console.log(map);
+
+for (const [key, value] of map) {
+    // console.log(key, ':-', value);
     
+}
+
+
+
+
+const myobject = {
+    'game1' : 'GTA3',
+    'game2' : 'Spiderman',
+    'game3' : 'Valorant'
+}
+
+// for (const [key, value] of myobject) {
+//     // console.log(key, ':-', value);
+//     }  
+//     //object are not iterable using forof loop
+
+ 
+
+// forin loop
+for (const key in myobject) {
+    
+    // console.log(myobject[key]);   
+}
+
+const lang = ["js", "rb", "py", "java", "cpp"]
+
+for (const key in lang) {
+    console.log(key, "and value are", lang[key]);
+    
+  
 }
