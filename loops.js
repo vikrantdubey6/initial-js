@@ -110,7 +110,48 @@ for (const key in myobject) {
 const lang = ["js", "rb", "py", "java", "cpp"]
 
 for (const key in lang) {
-    console.log(key, "and value are", lang[key]);
-    
-  
+    // console.log(key, "and value are", lang[key]);
 }
+ 
+// +++++++++++ for-each +++++++++++
+
+lang.forEach( function (val){
+    // console.log(val);
+})
+
+lang.forEach((item) => {
+    // console.log(item)
+})
+
+function printme(item) {
+    console.log(item);
+}
+
+// lang.forEach(printme)
+// car.forEach(printme)
+
+lang.forEach((item, index, arr)=>{
+    // console.log((item, index, arr));
+    
+} )
+
+const mycoding = [
+    {
+        langName : "javascript",
+        extension : ".js"
+    },
+     {
+        langName : "python",
+        extension : ".py"
+    }, 
+    {
+        langName : "java",
+        extension : ".java"
+    },
+
+]
+
+mycoding.forEach((item)=> {
+    console.log(item.langName, item.extension)
+}
+)
