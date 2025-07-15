@@ -71,7 +71,7 @@ for (const num of arr) {
 
 // +++++++++++ Map +++++++++++++
 
-const map = new Map()   //store key-value pair with unique value it is not iterable 
+const map = new Map()          //store key-value pair with unique value it is not iterable 
 
 map.set('IN', "India")
 map.set('USA', "United State of America")
@@ -82,11 +82,7 @@ map.set('NL', "Netherland")
 
 for (const [key, value] of map) {
     // console.log(key, ':-', value);
-    
 }
-
-
-
 
 const myobject = {
     'game1' : 'GTA3',
@@ -98,9 +94,6 @@ const myobject = {
 //     // console.log(key, ':-', value);
 //     }  
 //     //object are not iterable using forof loop
-
- 
-
 // forin loop
 for (const key in myobject) {
     
